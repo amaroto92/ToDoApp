@@ -1,0 +1,49 @@
+body, html {
+	background: #ADB212;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+}
+#principal {
+	background: #B20F09;
+	max-height: 80%;
+	overflow: hidden;
+}
+#principal header h1 {
+	color: #FFF;
+	margin: 5px 15px;
+	text-align: center;
+	font-weight: 300;
+}
+#principal div.contenedor li {
+	color: #F6FF00;
+}
+#principal div.contenedor li input.editText {
+	background: none;
+	border: none;
+	
+}
+#principal div.contenedor {
+	height: calc( 100vh - 100px );
+	overflow: auto;
+}
+.non-styled {
+	list-style: none;
+}
+.new_task {
+	background: #B20F09;
+	width: 100%;
+	height: 35px;
+	border: 2px dashed #F6FF00;
+	border-radius: 3px;
+	margin-left: -20px;
+}
+
+@media (min-width: 768px) {
+	#principal {
+		width: 50%;
+	}
+}
